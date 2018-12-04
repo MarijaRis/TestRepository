@@ -24,19 +24,19 @@ function converter(temperature, type) {
     // return result;
 }
 
-/*function classes(sessions, classes, months, winterreak){
+function classes(sessions, classes, months, winterreak){
     var classes = classes*sessions*months-(winterreak*classes);
     //console.log (classes);
     //alert("classes");
      return result;
-}*/
+}
 
-function iPhonePrice(phone, price, customsRate, taxRate) {
+/*function iPhonePrice(phone, price, customsRate, taxRate) {
     var iPhonePrice = 1 * 899.95;
     if (customsRate === 2) {
         result = 899.95 * 5 / 100;
     }
-}
+}*/
 
 function phoneImport(items, price, type) {
     var result = items * price;
@@ -66,7 +66,7 @@ function myIteration() {
     console.log("even number");
 }   else (num %2 === 1);{
     console.log("odd number");
-} 
+}  myIteration(15);
 
 
 for (var num = 1; num < 100; num++){

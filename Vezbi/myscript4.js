@@ -34,10 +34,14 @@ function deadOrAlive(){
     } ?????
 
 
-  function flirt(orc, human){
-    var orcHitpoints = 720 points;
-    var orcDamage =
-    var orcArmor = 
+  function warrior(hitpoints, damage, armor){
+    this.hitpoints = hitpoints;
+    this.damage = damage;
+    this.armor = armor;
+    checkDamage = function(){
+        console.log(this.hitpoints - this.damage)
+
+    }
   }
 
   
