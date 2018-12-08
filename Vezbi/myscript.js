@@ -15,10 +15,10 @@
 
 function maxOfThree(a, b, c){
 if(a> b && a>c){
-    alert (a);
+    console.log(a);
 }if (b>a && b>c){
-     alert(b);
+    console.logt(b);
 }else {
-    alert(c);
+    console.log(c);
 } 
 } maxOfThree (3, 5, 1);

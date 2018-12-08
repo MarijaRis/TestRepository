@@ -1,5 +1,6 @@
 function War() {
     this.isRaging = function() {
-        var Knight = new Knight ("AAA", 1000);
+        this.boss = new Dragon("Drogon", 25000);
+        this.army = []
     }
 }

@@ -39,12 +39,13 @@ if (bhp > 85 && bhp <= 150) {
 }
 costOfRegistering(90);
 
-//class 3/
-function myFunction(c){
+//class 3/1
+function myFunction(c) {
     var c = 10;
     var a = "dobar";
     var b = "den";
-}if (c >= 10) {
+}
+if (c >= 10) {
     console.log(a + b);
 } else if (c < 10) {
     console.log(b + a);
@@ -52,3 +53,42 @@ function myFunction(c){
     console.log("greska");
 }
 myFunction(5);
+
+//class 3/2
+
+function salaryTax(salary) {
+    if (salary <= 1000) {
+        console.log(salary * 0.11);
+    } else if (salary > 1000) {
+        console.log(((salary - 1000) * 0.18) + (1000 * 0.11));
+    }
+}
+salaryTax(500);
+//
+function salaryTax(profession, salary) {
+    if (profession == craftsman) {
+        if (salary <= 1000) {
+            console.log(salary * 0.05);
+
+        } else {
+            console.log(((salary - 1000) * 0.10) + (1000 * 0.05));
+        }
+        if (salary <= 1000) {
+            console.log(salary * 0.11);
+
+        } else {
+            console.log(((salary - 1000) * 0.18) + (1000 * 0.11));
+        }
+    }
+}
+
+
+
+//class 4/2
+function sumOfSquares(result) {
+    for (var i = 101; i < 150; i++) {
+
+        var square = Math.pow(i, 2);
+        console.log(i + square);
+    }
+}

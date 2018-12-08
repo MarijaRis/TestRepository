@@ -1,47 +1,47 @@
-function nameOfCats(i) {
-    for (var i = 0; i <= 7; i++);
+function random() {
+    var i = 0;
+    var random = 3;
+    //return random;
+}
+while (i < 10) {
 
-
+    log();
 }
 
-function catFeeding() {
-    var cats = ["Tabby", "Lizzie", "Mary"];
-    cats[2];
-    for (var i = 0; i <= 7; i++) {
-        for (var index = 0; index < cats.length; index++) {
-            var cat = cats[index];
+
+function getBiggest() {
+    var brojac = 0;
+    var najgolem = 0;
+    while (brojac < 10) {
+        var randomNum = Math.random();
+        if (randomNum > najgolem) {
+            najgolem = randomNum;
         }
-        if (cat === "Tabby") {
-            console.log(cats[0] + " started eating fish");
-        }
-        if (cat === "Lizzie") {
-            console.log(cats[1] + " started eating chicken");
-        } else if (cat === "Mary") {
-            console.log(cats[2] + " started eating nn");
-        }
+        brojac++;
     }
-} console.log (catFeeding());
+}
+return najgolem;
 
-function deadOrAlive(){
-    var time = 60;
-    for (var minute = 0; minute < 60 ; minute++){
-        console.log("performing insert action");
-    } if (time % 15  === 0){
-        console.log("check puls");
-    } else if (time-1){
-        console.log("alive");
-    }   
-    } ?????
+//var result = getBigest();
 
+function sumOfSquares(result) {
+    for (var i = 101; i < 150; i++) {
 
-  function warrior(hitpoints, damage, armor){
-    this.hitpoints = hitpoints;
-    this.damage = damage;
-    this.armor = armor;
-    checkDamage = function(){
-        console.log(this.hitpoints - this.damage)
-
+        var square = Math.pow(i, 2);
+        console.log(i + square);
     }
-  }
+}
 
-  
+
+function myFunc(x, y) {
+    var myVar = x * y;
+    console.log(myVar);
+    return myVar;
+}
+
+
+var greeting = "Dobar den";
+var name = " Marija";
+var welcomeMessage = greeting + name; {
+    document.write(welcomeMessage);
+}

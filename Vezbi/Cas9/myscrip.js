@@ -10,7 +10,7 @@ function Animal(name){
     this.eat = function(){}
 }
 //var protoAnimal = new Animal();
-//Tiger.prototype = protoAnimal; //ne trebaat za klasicn nasleduvanje
+//Tiger.prototype = protoAnimal; //ne trebaat za klasicno nasleduvanje
 
 var dzordz = new Tiger("marija");
 

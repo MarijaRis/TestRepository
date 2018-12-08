@@ -1,0 +1,54 @@
+
+function catFeeding() {
+    var cats = ["Tabby", "Lizzie", "Mary"];
+    cats[2];
+    for (var i = 0; i <= 7; i++) {
+        for (var index = 0; index < cats.length; index++) {
+            var cat = cats[index];
+        }
+        if (cat === "Tabby") {
+            console.log(cats[0] + " started eating fish");
+        }
+        if (cat === "Lizzie") {
+            console.log(cats[1] + " started eating chicken");
+        } else if (cat === "Mary") {
+            console.log(cats[2] + " started eating nn");
+        }
+    }
+}
+console.log(catFeeding());
+
+function deadOrAlive() {
+    var time = 60;
+    for (var minute = 0; minute < 60; minute++) {
+        console.log("performing insert action");
+    }
+    if (time % 15 === 0) {
+        console.log("check puls");
+    } else if (time - 1) {
+        console.log("alive");
+    }
+}
+
+//class 6/ #2 / 1
+
+var pal = prompt("enter number");
+var pal2 = pal.split('').reverse().join('');
+if (pal == pal2) {
+    console.log(true);
+
+} else {
+    console.log(false);
+}
+
+
+
+function warrior(hitpoints, damage, armor) {
+    this.hitpoints = hitpoints;
+    this.damage = damage;
+    this.armor = armor;
+    checkDamage = function () {
+        console.log(this.hitpoints - this.damage)
+
+    }
+}
