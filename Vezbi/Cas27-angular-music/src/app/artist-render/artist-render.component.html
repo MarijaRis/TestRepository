@@ -1,0 +1,9 @@
+<div *ngIf="pageData">
+  <h2>{{pageData.artist.name}}</h2>
+
+  <ul>
+    <li *ngFor="let artist of pageData.artist.similar">
+      <button (click)="changeArtist(artist.name)">{{artist.name}}</button>
+    </li>
+  </ul>
+</div>

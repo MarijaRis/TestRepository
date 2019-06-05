@@ -91,3 +91,5 @@ var nana = new Kniga("bela", 500);
 
 var bella = new Kniga("crna", 450);
 
+
+

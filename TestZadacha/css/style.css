@@ -1,0 +1,57 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    }
+
+ .img{
+    min-width: 1400px; 
+    max-height: 400px;
+} 
+
+.back-slider {
+    height: 30px;
+    background-color:  #3598db;
+}
+.back-slider1 {
+    height: 200px;
+    background-color: #3c3a3b;
+}
+
+.col img {
+    width: 60px;  
+}
+
+.media-body {
+    text-transform: uppercase;
+}
+
+img.media-object {
+    width: 180px;
+    margin-right: 10px;
+}
+
+.date {
+    color: white;
+    border: 0;
+    padding: 7px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+img.chevron {
+    width: 20px;
+}
+
+
+.glasgow {
+    min-width: 1400px;
+    max-height: 200px;
+}
+
+footer {
+    height: 40px;
+}
+.icons img{
+    width: 25px;
+    height: 25px;
+}
+

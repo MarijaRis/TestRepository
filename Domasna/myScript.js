@@ -40,10 +40,10 @@ if (bhp > 85 && bhp <= 150) {
 costOfRegistering(90);
 
 //class 3/1
-function myFunction(c) {
+function myFunction(a, b, c) {
     var c = 10;
-    var a = "dobar";
-    var b = "den";
+   // var a = "dobar";
+  //  var b = "den";
 }
 if (c >= 10) {
     console.log(a + b);
@@ -53,6 +53,18 @@ if (c >= 10) {
     console.log("greska");
 }
 myFunction(5);
+
+function myFunction(a, b, c) {
+ 
+    if (c === true) {
+        console.log(a + b);
+    } else if (c === false) {
+        console.log(b + a);
+    } else {
+        console.log("greska");
+    }
+    }
+    
 
 //class 3/2
 
